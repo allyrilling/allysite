@@ -162,7 +162,7 @@ function App() {
 												<h1>Implementation</h1>
 											</Row>
 											<Row>
-												<video width='750' height='450' src={lightyeardemo} />
+												<iframe width='750' height='450' src={lightyeardemo} />
 											</Row>
 										</Col>
 									}
@@ -277,12 +277,12 @@ function App() {
 														</p>
 													</Col>
 													<Col>
-														<video
+														<iframe
 															width='800'
 															height='450'
 															src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'
 															allowfullscreen
-														></video>
+														></iframe>
 													</Col>
 												</Row>
 												<p></p>
@@ -340,12 +340,12 @@ function App() {
 													</p>
 												</Col>
 												<Col>
-													<video
+													<iframe
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrZWgf3fqn83YPhj2QrItiP%2FCS571-ReactBeta%3Fpage-id%3D0%253A1%26node-id%3D20%253A421%26scaling%3Dscale-down%26starting-point-node-id%3D20%253A421'
 														allowfullscreen
-													></video>
+													></iframe>
 												</Col>
 											</Row>
 											<p></p>
@@ -354,7 +354,7 @@ function App() {
 													<h1>Implementation</h1>
 												</Col>
 												<Col>
-													<video width='750' height='450' src={reactDemo} />
+													<iframe width='750' height='450' src={reactDemo} />
 												</Col>
 											</Row>
 										</Container>
@@ -401,13 +401,13 @@ function App() {
 													</p>
 												</Col>
 												<Col>
-													<video
+													<iframe
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWQ5DrKYANTxJIJr6Et2UrU%2FCS571-ReactNativeBeta%3Fpage-id%3D0%253A1%26node-id%3D23%253A368%26viewport%3D480%252C242%252C0.18%26scaling%3Dscale-down%26starting-point-node-id%3D23%253A368'
 														allowfullscreen
-													></video>
-													<video width='800' height='450' src={rnFigmaDemo}></video>
+													></iframe>
+													<iframe width='800' height='450' src={rnFigmaDemo}></iframe>
 												</Col>
 											</Row>
 											<p></p>
@@ -416,7 +416,7 @@ function App() {
 													<h1>Implementation</h1>
 												</Col>
 												<Col>
-													<video width='750' height='450' src={rnDemo} />
+													<iframe width='750' height='450' src={rnDemo} />
 												</Col>
 											</Row>
 										</Container>
@@ -451,7 +451,7 @@ function App() {
 													<h1>Implementation</h1>
 												</Col>
 												<Col>
-													<video width='800px' height='500px' src={dfDemo} />
+													<iframe width='800px' height='500px' src={dfDemo} />
 												</Col>
 											</Row>
 										</Container>
@@ -495,12 +495,12 @@ function App() {
 													</p>
 												</Col>
 												<Col>
-													<video
+													<iframe
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwzqDP1h3h0lLoNTOdIB8vl%2FCS570-CulturalProbe%3Fpage-id%3D0%253A1%26node-id%3D28%253A2%26starting-point-node-id%3D28%253A2'
 														allowfullscreen
-													></video>
+													></iframe>
 												</Col>
 											</Row>
 											<p></p>
@@ -520,12 +520,12 @@ function App() {
 													</p>
 												</Col>
 												<Col>
-													<video
+													<iframe
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU5RQwonAfPai8a1MVHrq7o%2FInterim-Presentation%3Fpage-id%3D0%253A1%26node-id%3D86%253A1728%26starting-point-node-id%3D86%253A1728'
 														allowfullscreen
-													></video>
+													></iframe>
 												</Col>
 											</Row>
 										</Container>
@@ -560,7 +560,7 @@ function App() {
 													<h1>Origami Bird</h1>
 												</Col>
 												<Col>
-													<video width='800px' height='500px' src={origamiBird} />
+													<iframe width='800px' height='500px' src={origamiBird} />
 												</Col>
 											</Row>
 											<p></p>
@@ -569,7 +569,7 @@ function App() {
 													<h1>Snowboarding</h1>
 												</Col>
 												<Col>
-													<video width='800px' height='500px' src={snowboarding} />
+													<iframe width='800px' height='500px' src={snowboarding} />
 												</Col>
 											</Row>
 											<p></p>
@@ -578,7 +578,7 @@ function App() {
 													<h1>Track Cow</h1>
 												</Col>
 												<Col>
-													<video width='800px' height='500px' src={trackCow} />
+													<iframe width='800px' height='500px' src={trackCow} />
 												</Col>
 											</Row>
 										</Container>
