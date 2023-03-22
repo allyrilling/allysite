@@ -38,7 +38,7 @@ import zip_1_2 from './files/screenshots-1.2.zip';
 import lightyeardemo from './files/lightyeardemo.mp4';
 import trackCow from './files/TrackCow.mp4';
 import snowboarding from './files/Snowboarding.mp4';
-import origamiBird from './files/OrigamiBird.mp4';
+import origamiBird from './files/OrigamiBird.mov';
 
 function App() {
 	return (
