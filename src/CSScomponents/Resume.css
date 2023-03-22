@@ -1,0 +1,62 @@
+.resumeCategoryHeader {
+    /* background-color: rgb(79, 126, 255); */
+    /* border: 2px solid rgb(79, 126, 255); */
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.resumeItemBody {
+    /* border: 2px solid rgb(79, 126, 255); */
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.resumeECAandMoreColR {
+    margin-right: 5px;
+}
+
+.resumeECAandMoreColL {
+    margin-left: 5px;
+}
+
+.resumeTitleText {
+    font-size: 25px;
+}
+
+.resumeSubtitleText {
+    font-size: 20px;
+}
+
+.linked {
+    color: rgb(79, 126, 255);
+}
+
+.box {
+    margin: 6px;
+}
+
+/* a.resume:link {
+  text-decoration: none;
+  color: rgb(79, 126, 255);
+} */
+
+/* a.resume:visited {
+  text-decoration: none;
+  color: rgb(79, 126, 255);
+} */
+
+/* a.resume:hover {
+  text-decoration: underline;
+  color: rgb(79, 126, 255);
+} */
+
+/* a.resume:active {
+  text-decoration: underline;
+  color: rgb(79, 126, 255);
+} */

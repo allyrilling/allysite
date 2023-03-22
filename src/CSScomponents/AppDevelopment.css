@@ -1,0 +1,130 @@
+.appTitle {
+    font-size: 64px;
+    /* padding: 10px; */
+}
+
+.appSubtitle {
+    font-size: 20px;
+    /* padding: 10px; */
+}
+
+.linkPenguin {
+    font-size: 16px;
+    color: #F2536E;
+    /* padding: 10px; */
+}
+
+.linkLightyear {
+    font-size: 16px;
+    color: #1D96FA;
+}
+
+.linkOV {
+    font-size: 16px;
+    color: #fa1d1d;
+}
+
+/* .projectMini {
+  width: auto;
+} */
+
+.projectMini:hover {
+  /* border: 2px solid white; */
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.appStore {
+    height: 40px;
+    /* padding: 10px; */
+}
+
+.iconPicture {
+    height: 300px;
+}
+
+.lightyearIconPicture {
+    height: 80px;
+    /* padding: 10px; */
+}
+
+.iconAndTitleContainer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+    /* margin: auto; */
+}
+
+.titleContainer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 10px; */
+}
+
+.iconContainer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 0px; */
+}
+
+.aboutTheAppContainer {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+  p > a {
+    color: #E4B9FF;
+  }
+
+  .headerContainer {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 6px;
+    
+}
+
+.rowContainer {
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 6px;
+}
+
+.titleText {
+  /* font-size: 10px;
+  display: flex;
+  width: 150px; */
+  /* flex: 1; */
+}

@@ -1,0 +1,27 @@
+.titleText {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.subText {
+    font-size: 20px;
+}
+
+.bodyText {
+    font-size: 15px;
+}
+
+.containerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 2px solid rgb(49, 230, 94);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.linkStyle {
+    color: rgb(49, 230, 94);
+}

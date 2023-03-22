@@ -1,0 +1,16 @@
+.mePicture {
+    height: 500px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.aboutTextStyle {
+    padding: 20px;
+}
+
+.boxStyle {
+    border: 2px solid darkslateblue;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
