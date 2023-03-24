@@ -25,8 +25,8 @@ import gralogo from './images/gralogo.svg';
 import appStoreIcon from './images/as.svg';
 import gitHubIcon from './images/viewongithub.svg';
 import jsImg from './images/jsimg.png';
-import reactDemo from './files/ReactDemo.mov';
-import rnFigmaDemo from './files/rnfigmademo.mov';
+import reactDemo from './files/ReactDemo.mp4';
+import rnFigmaDemo from './files/rnfigmademo.mp4';
 import rnDemo from './files/rndemo.MP4';
 import dfDemo from './files/dfdemo.mp4';
 import ss_home_1_0 from './images/penguinv1.png';
@@ -38,7 +38,7 @@ import zip_1_2 from './files/screenshots-1.2.zip';
 import lightyeardemo from './files/lightyeardemo.mp4';
 import trackCow from './files/TrackCow.mp4';
 import snowboarding from './files/Snowboarding.mp4';
-import origamiBird from './files/OrigamiBird.mov';
+import origamiBird from './files/OrigamiBird.mp4';
 
 function App() {
 	return (
@@ -354,7 +354,7 @@ function App() {
 													<h1>Implementation</h1>
 												</Col>
 												<Col>
-													<video width='750' height='450' src={reactDemo} />
+													<iframe width='750' height='450' src={reactDemo} />
 												</Col>
 											</Row>
 										</Container>
