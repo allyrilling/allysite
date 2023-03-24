@@ -354,7 +354,7 @@ function App() {
 													<h1>Implementation</h1>
 												</Col>
 												<Col>
-													<iframe width='750' height='450' src={reactDemo} />
+													<video width='750' height='450' src={reactDemo} />
 												</Col>
 											</Row>
 										</Container>
