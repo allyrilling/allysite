@@ -38,6 +38,7 @@ import trackCow from './files/TrackCow.mp4';
 import snowboarding from './files/Snowboarding.mp4';
 import origamiBird from './files/OrigamiBird.mp4';
 import ftlogo from './images/fintoolslogo.svg';
+import ovdemo from './files/ovdemo.mp4';
 
 function App() {
 	return (
@@ -199,13 +200,18 @@ function App() {
 									extras={
 										<Col className='ovContainer'>
 											<Row>
-												<h1>
-													Click{' '}
-													<a href='https://options-visualizer.web.app' style={{ color: '#fa1d1d' }}>
-														here
-													</a>{' '}
-													to visit the site.
-												</h1>
+												<Col>
+													<h1>
+														Click{' '}
+														<a href='https://options-visualizer.web.app' style={{ color: '#fa1d1d' }}>
+															here
+														</a>{' '}
+														to visit the site.
+													</h1>
+												</Col>
+												<Col>
+													<iframe width='750' height='450' src={ovdemo} />
+												</Col>
 											</Row>
 											<Row></Row>
 										</Col>
