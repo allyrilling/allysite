@@ -37,6 +37,7 @@ import lightyeardemo from './files/lightyeardemo.mp4';
 import trackCow from './files/TrackCow.mp4';
 import snowboarding from './files/Snowboarding.mp4';
 import origamiBird from './files/OrigamiBird.mp4';
+import ftlogo from './images/fintoolslogo.svg';
 
 function App() {
 	return (
@@ -213,6 +214,51 @@ function App() {
 							)}
 						/>
 						<Route
+							path='/projects/fintools'
+							exact
+							component={() => (
+								<ProjectMaxi
+									title='FinTools'
+									subtitle={
+										<a href='https://fintools.netlify.app/'>
+											<h3 className='linkOV'>Click here to visit the site.</h3>
+										</a>
+									}
+									link='https://github.com/allyrilling/fintools'
+									logo={gitHubIcon}
+									projectIcon={ftlogo}
+									aboutThe='About the Site'
+									class={'ovContainer'}
+									description={[
+										'FinTools is an extension of my Options Visualizer website. The site contains several helpful financial calculation tools. It is currently a work in progress and not all of the tools are finished.',
+									]}
+									technologies={
+										<ul>
+											<li>JavaScript: backend</li>
+											<li>React-Bootstrap: frontend</li>
+											<li>ReactJS</li>
+											<li>Netlify: hosting</li>
+											<li>Figma: design and icons</li>
+										</ul>
+									}
+									extras={
+										<Col className='ovContainer'>
+											<Row>
+												<h1>
+													Click{' '}
+													<a href='https://fintools.netlify.app/' style={{ color: '#fa1d1d' }}>
+														here
+													</a>{' '}
+													to visit the site.
+												</h1>
+											</Row>
+											<Row></Row>
+										</Col>
+									}
+								/>
+							)}
+						/>
+						<Route
 							path='/projects/site'
 							exact
 							component={() => (
@@ -231,7 +277,7 @@ function App() {
 											<li>JavaScript: backend</li>
 											<li>React-Bootstrap: frontend</li>
 											<li>ReactJS</li>
-											<li>Firebase: hosting</li>
+											<li>Netlify: hosting</li>
 											<li>Figma: design and icons</li>
 										</ul>
 									}
