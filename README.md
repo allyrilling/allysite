@@ -1,10 +1,10 @@
 # Title
 Personal website
 
-# Project goal
+# Project Goal
 I built this website to display my work and experience.
 
-# Tech stack
+# Tech Stack
 * ReactJS
 * React-Bootstrap
 * HTML
