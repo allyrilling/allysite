@@ -68,7 +68,7 @@ export default function Resume ()
         <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
             <Row><h3 className="resumeTitleText">Teaching Assistant, Professor Sebastien Plante</h3></Row>
-            <Row><h4 className="resumeSubtitleText">January 2022 - May 2022</h4></Row>
+            <Row><h4 className="resumeSubtitleText">January 2022 - Present</h4></Row>
           </Col>
           <Col>
             <ul>
