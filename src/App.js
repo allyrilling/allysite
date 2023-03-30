@@ -39,6 +39,7 @@ import snowboarding from './files/Snowboarding.mp4';
 import origamiBird from './files/OrigamiBird.mp4';
 import ftlogo from './images/fintoolslogo.svg';
 import ovdemo from './files/ovdemo.mp4';
+import looplogo from './images/looplogo.svg';
 
 function App() {
 	return (
@@ -236,7 +237,7 @@ function App() {
 									aboutThe='About the Site'
 									class={'ovContainer'}
 									description={[
-										'FinTools is an extension of my Options Visualizer website. The site contains several helpful financial calculation tools. It is currently a work in progress and not all of the tools are finished.',
+										'FinTools is an extension of my Options Visualizer website. The site contains several helpful financial calculation tools. It is currently a work in progress and not all of the tools are finished / function correctly.',
 									]}
 									technologies={
 										<ul>
@@ -629,6 +630,39 @@ function App() {
 												</Col>
 												<Col>
 													<iframe width='800px' height='500px' src={trackCow} />
+												</Col>
+											</Row>
+										</Container>
+									}
+								/>
+							)}
+						/>
+						<Route
+							path='/projects/loop'
+							exact
+							component={() => (
+								<ProjectMaxi
+									title='Loop'
+									projectIcon={looplogo}
+									aboutThe='About the App'
+									class={'loopContainer'}
+									hideLinks={false}
+									description={'LOOP DESCRIPTION'}
+									technologies={
+										<ul>
+											<li>Swift: backend and logic</li>
+											<li>SwiftUI: frontend</li>
+											<li>Figma: design</li>
+										</ul>
+									}
+									extras={
+										<Container>
+											<Row className='loopContainer'>
+												<Col>
+													<h1>TEST</h1>
+												</Col>
+												<Col>
+													<iframe width='800px' height='500px' src={origamiBird} />
 												</Col>
 											</Row>
 										</Container>

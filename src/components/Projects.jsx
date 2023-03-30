@@ -13,6 +13,7 @@ import iplogo from "../images/iplogo.svg"
 import gralogo from '../images/gralogo.svg';
 import ProjectMini from "./ProjectMini";
 import ftlogo from '../images/fintoolslogo.svg';
+import looplogo from '../images/looplogo.svg';
 
 function Projects ()
 {
@@ -25,6 +26,7 @@ function Projects ()
           <Col className='projectMini'><a href="/projects/options-visualizer"><ProjectMini icon={ovLogo} name="Options Visualizer" description="Website" /></a></Col>
           <Col className='projectMini'><a href="/projects/site"><ProjectMini icon={favicon} name="This Site" description="Portfolio Website" /></a></Col>
           <Col className='projectMini'><a href="/projects/fintools"><ProjectMini icon={ftlogo} name="FinTools" description="Website" /></a></Col>
+          <Col className='projectMini'><a href="/projects/loop" ><ProjectMini icon={looplogo} name="Loop" description="iOS App" /></a></Col>
           <Col className='projectMini'><a href="/projects/penguinworkouts" ><ProjectMini icon={icon} name="Penguin Workouts" description="iOS App" /></a></Col>
           <Col className='projectMini'><a href="/projects/lightyear"><ProjectMini icon={lightyearicon} name="Lightyear" description="iOS App" /></a></Col>
         </Row>
