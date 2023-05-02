@@ -39,6 +39,7 @@ import snowboarding from './files/Snowboarding.mp4';
 import origamiBird from './files/OrigamiBird.mp4';
 import ftlogo from './images/fintoolslogo.svg';
 import ovdemo from './files/ovdemo.mp4';
+import fdicon from './images/flowerdictlogo.svg';
 
 function App() {
 	return (
@@ -253,6 +254,51 @@ function App() {
 												<h1>
 													Click{' '}
 													<a href='https://fintools.netlify.app/' style={{ color: '#fa1d1d' }}>
+														here
+													</a>{' '}
+													to visit the site.
+												</h1>
+											</Row>
+											<Row></Row>
+										</Col>
+									}
+								/>
+							)}
+						/>
+						<Route
+							path='/projects/flowerdictionary'
+							exact
+							component={() => (
+								<ProjectMaxi
+									title='Flower Dictionary'
+									subtitle={
+										<a href='https://flowerdictionary.netlify.app/'>
+											<h3 className='linkOV'>Click here to visit the site.</h3>
+										</a>
+									}
+									link='https://github.com/allyrilling/FlowerDictionary'
+									logo={gitHubIcon}
+									projectIcon={fdicon}
+									aboutThe='About the Site'
+									class={'fdContainer'}
+									description={[
+										'Flower Dictionary is a site I made to help me remember the names of the flowers that I have seen. All flower photos are taken by me.',
+									]}
+									technologies={
+										<ul>
+											<li>JavaScript: backend</li>
+											<li>React-Bootstrap: frontend</li>
+											<li>ReactJS</li>
+											<li>Netlify: hosting</li>
+											<li>Figma: design and icons</li>
+										</ul>
+									}
+									extras={
+										<Col className='fdContainer'>
+											<Row>
+												<h1>
+													Click{' '}
+													<a href='https://flowerdictionary.netlify.app/' style={{ color: '#73fcfc' }}>
 														here
 													</a>{' '}
 													to visit the site.
