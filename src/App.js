@@ -646,8 +646,9 @@ function App() {
 									projectIcon={looplogo}
 									aboutThe='About the App'
 									class={'loopContainer'}
-									hideLinks={false}
-									description={'LOOP DESCRIPTION'}
+									link='https://github.com/CS571/react-beta-s22-allyrilling'
+									logo={gitHubIcon}
+									description={'Loop allows users to import a .FIT file and view metrics associated with that workout.'}
 									technologies={
 										<ul>
 											<li>Swift: backend and logic</li>
