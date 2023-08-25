@@ -13,9 +13,9 @@ export default function Resume ()
         <Row className="resumeItemBody" style={{ borderColor: "red" }}  >
           <Col>
             <Row><h3 className="resumeTitleText">University of Wisconsin — Madison</h3></Row>
-            <Row><h4 className="resumeSubtitleText">Graduation December 2023</h4></Row>
-            <Row><h4 className="resumeSubtitleText">Majors: Computer Science (B.S.) and Finance (B.S.)</h4></Row>
-            <Row><h4 className="resumeSubtitleText">GPA: 3.927</h4></Row>
+            <Row><h4 className="resumeSubtitleText"><u>GPA</u>: 3.927</h4></Row>
+            <Row><h4 className="resumeSubtitleText"><u>Majors</u>: Computer Science (B.S.) and Finance (B.S.)</h4></Row>
+            <Row><h4 className="resumeSubtitleText"><u>Graduation</u>: December 2023</h4></Row>
           </Col>
           <Col>
             <ul>
@@ -57,6 +57,14 @@ export default function Resume ()
             <Row><h3 className="resumeTitleText">Software Engineering Intern, Charles Schwab</h3></Row>
             <Row><h4 className="resumeSubtitleText">June 2023 - Present</h4></Row>
           </Col>
+          <Col>
+            <ul>
+              <li>Clarified the support structure of security margin data by creating a new cloud-based, .NET service that exclusively handled database write functionality.</li>
+              <li>Gathered requirements, implemented, tested, and released to production portfolio margin eligibility features to enhance order management and loan origination workflows.</li>
+              <li>Identified and fixed a security margin data look up bug which impacted pledged asset loan origination.
+              </li>
+            </ul>
+          </Col>
         </Row>
 
         <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
@@ -66,9 +74,10 @@ export default function Resume ()
           </Col>
           <Col>
             <ul>
-              <li>Architected and implemented (in .NET and C#) the backend for a new options expiration assignment risk monitoring feature that created alerts for customer accounts with risky options spreads.</li>
-              <li>Utilized knowledge of options to gather requirements from business users for the new options assignment risk alerts.</li>
-              <li>Developed a workflow in PEGA that parsed the backend assignment risk alert output and displayed alert data to end users.</li>
+              <li>Architected new options expiration assignment risk monitoring alerts that created cases for customer accounts with risky options spreads and implemented the backend logic using .NET and C#.</li>
+              <li>Utilized knowledge of options to gather requirements from business users for new options assignment risk alerts.</li>
+              <li>Developed a workflow to display new assignment risk alerts to end users by parsing case data from the option expiration service's backend with PEGA.
+              </li>
             </ul>
           </Col>
         </Row>
@@ -94,11 +103,9 @@ export default function Resume ()
           </Col>
           <Col>
             <ul>
-              <li>Used ReactJS to build <a className="resume" href="/projects/options-visualizer" style={{ color: 'aqua' }}>Options Visualizer</a>, a website that visualizes options spreads and allows users to input custom spreads.</li>
-              <li>Built <a className="resume" href="/projects/fintools" style={{ color: 'aqua' }}>FinTools</a>, a website that consolidates several useful tools for financial calculations, including calculating options
-                payoffs and greeks using the Black-Scholes model.</li>
-              <li>Created Penguin Workouts, a pleasantly designed and user configurable workout app on iOS built with Swift and
-                SwiftUI.</li>
+              <li>Created <a className="resume" href="/projects/options-visualizer" style={{ color: 'aqua' }}>Options Visualizer</a>, a website that visualizes custom options spreads, using ReactJS.</li>
+              <li>Built <a className="resume" href="/projects/fintools" style={{ color: 'aqua' }}>FinTools</a>, a website that consolidates several useful tools for financial calculations, including calculating options payoffs and greeks using the Black-Scholes model</li>
+              <li>Created Penguin Workouts, a pleasantly designed and user configurable workout app on iOS built with Swift and SwiftUI.</li>
             </ul>
           </Col>
         </Row>
@@ -110,11 +117,9 @@ export default function Resume ()
           </Col>
           <Col>
             <ul>
-              <li>Utilized Selenium to write over 20 UI automation test cases for two different webpages. </li>
-              <li>Mapped elements of webpages to variables in code using Xpaths so that their attributes could be validated.</li>
-              <li>Created a workflow for scanning and validating the contents of auto-generated PDFs.</li>
-              <li>Collaborated with six interns in other lines of business to create a presentation about intern networking opportunities.</li>
-              <li>Worked in an Agile environment and participated in Scrum ceremonies on two different teams.</li>
+              <li>Automated over 20 UI test cases across several workflows to decrease manual testing, utilizing Selenium.</li>
+              <li>Created an automated workflow for scanning and validating the contents of auto-generated PDFs.
+              </li>
             </ul>
           </Col>
         </Row>
@@ -130,9 +135,7 @@ export default function Resume ()
               <li>JavaScript / HTML / CSS</li>
               <li>SQL</li>
               <li>C# / .NET</li>
-              <li>Swift / SwiftUI</li>
               <li>C / C++</li>
-              <li>Haskell</li>
             </ul>
           </Col>
 
@@ -148,10 +151,13 @@ export default function Resume ()
           </Col>
 
           <Col>
-            <h3>Certifications</h3>
+            <h3>Skills and Tools</h3>
             <ul>
-              <li>Bloomberg Market Concepts</li>
-              <li>Wisconsin School of Business: Excel Proficiency</li>
+              <li>Git (GitHub, Bitbucket)</li>
+              <li>Agile</li>
+              <li>Object oriented programming</li>
+              <li>SOLID design principles</li>
+              <li>ReactJS</li>
             </ul>
           </Col>
         </Row>
