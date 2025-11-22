@@ -14,15 +14,21 @@ import gralogo from '../images/gralogo.svg';
 import ProjectMini from './ProjectMini';
 import ftlogo from '../images/fintoolslogo.svg';
 import fdlogo from '../images/flowerdictlogo.svg';
+import loopicon from '../images/loopicon.svg';
 
 function Projects() {
 	return (
 		<Container>
 			<Col>
 				<Row className='headerContainer'>
-					<h1>Personal Projects</h1>
+					<h1>Current Projects</h1>
 				</Row>
 				<Row className='rowContainer'>
+					<Col className='projectMini'>
+						<a href='/projects/loop'>
+							<ProjectMini icon={loopicon} name='Loop' description='Workout Visualizer App' />
+						</a>
+					</Col>
 					<Col className='projectMini'>
 						<a href='/projects/site'>
 							<ProjectMini icon={favicon} name='This Site' description='Portfolio Website' />

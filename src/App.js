@@ -41,6 +41,8 @@ import origamiBird from './files/OrigamiBird.mp4';
 import ftlogo from './images/fintoolslogo.svg';
 import ovdemo from './files/ovdemo.mp4';
 import fdicon from './images/flowerdictlogo.svg';
+import loopicon from './images/loopicon.svg';
+import loopdemo from './files/Loopdemo.mov';
 
 function App() {
 	return (
@@ -307,6 +309,46 @@ function App() {
 												</h1>
 											</Row>
 											<Row></Row>
+										</Col>
+									}
+								/>
+							)}
+						/>
+						<Route
+							path='/projects/loop'
+							exact
+							component={() => (
+								<ProjectMaxi
+									title='Loop'
+									link='https://github.com/allyrilling/loop'
+									logo={gitHubIcon}
+									projectIcon={loopicon}
+									aboutThe='About the Site'
+									class={'loopContainer'}
+									hideLinks={true}
+									description={[
+										'Loop is a comprehensive workout tracking application designed to help athletes monitor and analyze their training data. With detailed metrics, lap tracking, and performance visualization, Loop provides insights into your fitness journey. It is still in development and not yet publicly available.',
+									]}
+									technologies={
+										<ul>
+											<li>React: frontend framework</li>
+											<li>TypeScript: type-safe development</li>
+											<li>React-Bootstrap: frontend</li>
+											<li>Data visualization libraries</li>
+											<li>Figma: design and icons</li>
+										</ul>
+									}
+									extras={
+										<Col className='loopContainer'>
+											<Row>
+												<h2>Demo</h2>
+											</Row>
+											<Row>
+												<video width='100%' height='auto' controls>
+													<source src={loopdemo} type='video/mp4' />
+													Your browser does not support the video tag.
+												</video>
+											</Row>
 										</Col>
 									}
 								/>
