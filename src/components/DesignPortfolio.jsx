@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import '../CSScomponents/DesignPortfolio.css';
-import jsImg from '../images/jsimg.png';
+import { visuallyExplainedData, loopData, finToolsData } from '../data/designPortfolioData';
 import ve1 from '../images/design/ve-1.png';
 import ve2 from '../images/design/ve-2.png';
 import ve3 from '../images/design/ve-3.png';
@@ -33,6 +33,34 @@ function DesignPortfolio() {
 	const [flowerIndex, setFlowerIndex] = useState(0);
 	const [finIndex, setFinIndex] = useState(0);
 
+	// Map image names to actual imports
+	const imageMap = {
+		ve1: ve1,
+		ve2: ve2,
+		ve3: ve3,
+		ve4: ve4,
+		ve5: ve5,
+		ve6: ve6,
+		ve7: ve7,
+		ve8: ve8,
+		loop1: loop1,
+		loop2: loop2,
+		loop3: loop3,
+		loop4: loop4,
+		loop5: loop5,
+		loop6: loop6,
+		loop7: loop7,
+		loop8: loop8,
+		fd1: fd1,
+		fd2: fd2,
+		fd3: fd3,
+		fd4: fd4,
+		ft1: ft1,
+		ft2: ft2,
+		ft3: ft3,
+		ft4: ft4,
+	};
+
 	return (
 		<Container className='designPortfolioContainer'>
 			{/* Visually Explained Project */}
@@ -42,126 +70,23 @@ function DesignPortfolio() {
 				</Row>
 				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
 					<Carousel className='designCarousel' interval={5000} controls={false} indicators={false} activeIndex={veIndex} onSelect={setVeIndex}>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={ve1} alt='Visually Explained slide 1' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python Decorators - Visually Explained{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={ve2} alt='Visually Explained slide 2' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python Functions - Visually Explained (145k views){' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={ve3} alt='Visually Explained slide 3' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python Decorators - Visually Explained{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={ve4} alt='Visually Explained slide 4' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python if name == "main" - Visually Explained (406k views){' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={ve5} alt='Visually Explained slide 5' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python if name == "main" - Visually Explained (406k views){' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={ve6} alt='Visually Explained slide 6' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python Functions - Visually Explained (145k views){' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={ve7} alt='Visually Explained slide 7' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python Lambda Functions - Visually Explained (138k views){' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={ve8} alt='Visually Explained slide 8' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Python Functions - Visually Explained (145k views){' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
+						{[0, 1, 2, 3].map((slideIndex) => (
+							<Carousel.Item key={slideIndex}>
+								<Row className='carouselRow'>
+									{visuallyExplainedData.slice(slideIndex * 2, slideIndex * 2 + 2).map((item) => (
+										<Col key={item.id}>
+											<img className='carouselImage' src={imageMap[item.image]} alt={`Visually Explained slide ${item.id}`} />
+											<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
+												{item.title} {item.views && `(${item.views})`}{' '}
+												<a href={item.videoUrl} target='_blank' rel='noopener noreferrer' style={{ color: 'cyan', textDecoration: 'none' }}>
+													(Link)
+												</a>
+											</div>
+										</Col>
+									))}
+								</Row>
+							</Carousel.Item>
+						))}
 					</Carousel>
 					<div className='carousel-controls-container'>
 						<button className='carousel-control-prev' onClick={() => setVeIndex(veIndex === 0 ? 3 : veIndex - 1)}>
@@ -186,54 +111,18 @@ function DesignPortfolio() {
 				</Row>
 				<Row className='projectBody' style={{ borderColor: '#DA63AC' }}>
 					<Carousel className='designCarousel' interval={5000} controls={false} indicators={false} activeIndex={loopIndex} onSelect={setLoopIndex}>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={loop1} alt='Loop slide 1' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={loop2} alt='Loop slide 2' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={loop3} alt='Loop slide 3' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={loop4} alt='Loop slide 4' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={loop5} alt='Loop slide 5' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={loop6} alt='Loop slide 6' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={loop7} alt='Loop slide 7' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={loop8} alt='Loop slide 8' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
+						{[0, 1, 2, 3].map((slideIndex) => (
+							<Carousel.Item key={slideIndex}>
+								<Row className='carouselRow'>
+									{loopData.slice(slideIndex * 2, slideIndex * 2 + 2).map((item) => (
+										<Col key={item.id}>
+											<img className='carouselImage' src={imageMap[item.image]} alt={`Loop slide ${item.id}`} />
+											<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>{item.description}</div>
+										</Col>
+									))}
+								</Row>
+							</Carousel.Item>
+						))}
 					</Carousel>
 					<div className='carousel-controls-container'>
 						<button className='carousel-control-prev' onClick={() => setLoopIndex(loopIndex === 0 ? 3 : loopIndex - 1)}>
@@ -308,30 +197,18 @@ function DesignPortfolio() {
 				</Row>
 				<Row className='projectBody' style={{ borderColor: '#ff0000' }}>
 					<Carousel className='designCarousel' interval={5000} controls={false} indicators={false} activeIndex={finIndex} onSelect={setFinIndex}>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={ft1} alt='FinTools slide 1' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Caption placeholder text</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={ft2} alt='FinTools slide 2' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Caption placeholder text</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Row className='carouselRow'>
-								<Col>
-									<img className='carouselImage' src={ft3} alt='FinTools slide 3' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Caption placeholder text</div>
-								</Col>
-								<Col>
-									<img className='carouselImage' src={ft4} alt='FinTools slide 4' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Caption placeholder text</div>
-								</Col>
-							</Row>
-						</Carousel.Item>
+						{[0, 1].map((slideIndex) => (
+							<Carousel.Item key={slideIndex}>
+								<Row className='carouselRow'>
+									{finToolsData.slice(slideIndex * 2, slideIndex * 2 + 2).map((item) => (
+										<Col key={item.id}>
+											<img className='carouselImage' src={imageMap[item.image]} alt={`FinTools slide ${item.id}`} />
+											<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>{item.caption}</div>
+										</Col>
+									))}
+								</Row>
+							</Carousel.Item>
+						))}
 					</Carousel>
 					<div className='carousel-controls-container'>
 						<button className='carousel-control-prev' onClick={() => setFinIndex(finIndex === 0 ? 1 : finIndex - 1)}>
