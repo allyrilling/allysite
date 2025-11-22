@@ -149,6 +149,25 @@
 	background-color: #6c757d;
 }
 
+/* FinTools section specific styles */
+.fintools-section .carousel-controls-container .carousel-control-prev-icon,
+.fintools-section .carousel-controls-container .carousel-control-next-icon {
+	background-color: #ff0000;
+}
+
+.fintools-section .carousel-controls-container .carousel-control-prev-icon:hover,
+.fintools-section .carousel-controls-container .carousel-control-next-icon:hover {
+	background-color: rgba(255, 0, 0, 0.8);
+}
+
+.fintools-section .carousel-controls-container .carousel-indicators button {
+	background-color: #ff0000;
+}
+
+.fintools-section .carousel-controls-container .carousel-indicators button.active {
+	background-color: #ffffff;
+}
+
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
 	.projectHeader {
