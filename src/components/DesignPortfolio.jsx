@@ -10,6 +10,14 @@ import ve5 from '../images/design/ve-5.png';
 import ve6 from '../images/design/ve-6.png';
 import ve7 from '../images/design/ve-7.png';
 import ve8 from '../images/design/ve-8.png';
+import loop1 from '../images/design/loop-1.png';
+import loop2 from '../images/design/loop-2.png';
+import loop3 from '../images/design/loop-3.png';
+import loop4 from '../images/design/loop-4.png';
+import loop5 from '../images/design/loop-5.png';
+import loop6 from '../images/design/loop-6.png';
+import loop7 from '../images/design/loop-7.png';
+import loop8 from '../images/design/loop-8.png';
 
 function DesignPortfolio() {
 	const [veIndex, setVeIndex] = useState(0);
@@ -164,83 +172,71 @@ function DesignPortfolio() {
 			</Col>
 
 			{/* Loop Project */}
-			<Col className='box'>
-				<Row className='projectHeader' style={{ borderColor: 'cyan' }}>
+			<Col className='box loop-section'>
+				<Row className='projectHeader' style={{ borderColor: '#DA63AC' }}>
 					<h2>Loop</h2>
 				</Row>
-				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
+				<Row className='projectBody' style={{ borderColor: '#DA63AC' }}>
 					<Carousel className='designCarousel' interval={5000} controls={false} indicators={false} activeIndex={loopIndex} onSelect={setLoopIndex}>
 						<Carousel.Item>
 							<Row className='carouselRow'>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Loop slide 1' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 1{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={loop1} alt='Loop slide 1' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
 								</Col>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Loop slide 2' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 2{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={loop2} alt='Loop slide 2' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
 								</Col>
 							</Row>
 						</Carousel.Item>
 						<Carousel.Item>
 							<Row className='carouselRow'>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Loop slide 3' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 3{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={loop3} alt='Loop slide 3' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
 								</Col>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Loop slide 4' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 4{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={loop4} alt='Loop slide 4' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
+								</Col>
+							</Row>
+						</Carousel.Item>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={loop5} alt='Loop slide 5' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
+								</Col>
+								<Col>
+									<img className='carouselImage' src={loop6} alt='Loop slide 6' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
+								</Col>
+							</Row>
+						</Carousel.Item>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={loop7} alt='Loop slide 7' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
+								</Col>
+								<Col>
+									<img className='carouselImage' src={loop8} alt='Loop slide 8' />
+									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>Description placeholder text</div>
 								</Col>
 							</Row>
 						</Carousel.Item>
 					</Carousel>
 					<div className='carousel-controls-container'>
-						<button className='carousel-control-prev' onClick={() => setLoopIndex(loopIndex === 0 ? 1 : loopIndex - 1)}>
+						<button className='carousel-control-prev' onClick={() => setLoopIndex(loopIndex === 0 ? 3 : loopIndex - 1)}>
 							<span className='carousel-control-prev-icon' aria-hidden='true'></span>
 						</button>
 						<div className='carousel-indicators'>
-							{[0, 1].map((idx) => (
+							{[0, 1, 2, 3].map((idx) => (
 								<button key={idx} type='button' className={loopIndex === idx ? 'active' : ''} onClick={() => setLoopIndex(idx)}></button>
 							))}
 						</div>
-						<button className='carousel-control-next' onClick={() => setLoopIndex(loopIndex === 1 ? 0 : loopIndex + 1)}>
+						<button className='carousel-control-next' onClick={() => setLoopIndex(loopIndex === 3 ? 0 : loopIndex + 1)}>
 							<span className='carousel-control-next-icon' aria-hidden='true'></span>
 						</button>
 					</div>

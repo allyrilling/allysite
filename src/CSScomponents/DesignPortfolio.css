@@ -111,6 +111,25 @@
 	background-color: #ffffff;
 }
 
+/* Loop section specific styles */
+.loop-section .carousel-controls-container .carousel-control-prev-icon,
+.loop-section .carousel-controls-container .carousel-control-next-icon {
+	background-color: #da63ac;
+}
+
+.loop-section .carousel-controls-container .carousel-control-prev-icon:hover,
+.loop-section .carousel-controls-container .carousel-control-next-icon:hover {
+	background-color: rgba(218, 99, 172, 0.8);
+}
+
+.loop-section .carousel-controls-container .carousel-indicators button {
+	background-color: #da63ac;
+}
+
+.loop-section .carousel-controls-container .carousel-indicators button.active {
+	background-color: #ffffff;
+}
+
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
 	.projectHeader {
