@@ -18,6 +18,10 @@ import loop5 from '../images/design/loop-5.png';
 import loop6 from '../images/design/loop-6.png';
 import loop7 from '../images/design/loop-7.png';
 import loop8 from '../images/design/loop-8.png';
+import fd1 from '../images/design/fd-1.png';
+import fd2 from '../images/design/fd-2.png';
+import fd3 from '../images/design/fd-3.png';
+import fd4 from '../images/design/fd-4.png';
 
 function DesignPortfolio() {
 	const [veIndex, setVeIndex] = useState(0);
@@ -244,11 +248,11 @@ function DesignPortfolio() {
 			</Col>
 
 			{/* Flower Dictionary Project */}
-			<Col className='box'>
-				<Row className='projectHeader' style={{ borderColor: 'cyan' }}>
+			<Col className='box flower-dictionary-section'>
+				<Row className='projectHeader' style={{ borderColor: '#F8F9FA' }}>
 					<h2>Flower Dictionary</h2>
 				</Row>
-				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
+				<Row className='projectBody' style={{ borderColor: '#F8F9FA' }}>
 					<Carousel
 						className='designCarousel'
 						interval={5000}
@@ -259,60 +263,20 @@ function DesignPortfolio() {
 						<Carousel.Item>
 							<Row className='carouselRow'>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 1' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 1{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={fd1} alt='Flower Dictionary slide 1' />
 								</Col>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 2' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 2{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={fd2} alt='Flower Dictionary slide 2' />
 								</Col>
 							</Row>
 						</Carousel.Item>
 						<Carousel.Item>
 							<Row className='carouselRow'>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 3' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 3{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={fd3} alt='Flower Dictionary slide 3' />
 								</Col>
 								<Col>
-									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 4' />
-									<div style={{ marginTop: '10px', fontSize: '18px', textAlign: 'center' }}>
-										Video Title 4{' '}
-										<a
-											href='https://www.youtube.com/watch?v=YOUR_VIDEO_ID'
-											target='_blank'
-											rel='noopener noreferrer'
-											style={{ color: 'cyan', textDecoration: 'none' }}>
-											(Link)
-										</a>
-									</div>
+									<img className='carouselImage' src={fd4} alt='Flower Dictionary slide 4' />
 								</Col>
 							</Row>
 						</Carousel.Item>

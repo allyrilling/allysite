@@ -130,6 +130,25 @@
 	background-color: #ffffff;
 }
 
+/* Flower Dictionary section specific styles */
+.flower-dictionary-section .carousel-controls-container .carousel-control-prev-icon,
+.flower-dictionary-section .carousel-controls-container .carousel-control-next-icon {
+	background-color: #343a40;
+}
+
+.flower-dictionary-section .carousel-controls-container .carousel-control-prev-icon:hover,
+.flower-dictionary-section .carousel-controls-container .carousel-control-next-icon:hover {
+	background-color: rgba(52, 58, 64, 0.8);
+}
+
+.flower-dictionary-section .carousel-controls-container .carousel-indicators button {
+	background-color: #343a40;
+}
+
+.flower-dictionary-section .carousel-controls-container .carousel-indicators button.active {
+	background-color: #6c757d;
+}
+
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
 	.projectHeader {
