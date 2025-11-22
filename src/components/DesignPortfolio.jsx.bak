@@ -1,0 +1,142 @@
+import React from 'react';
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import '../CSScomponents/DesignPortfolio.css';
+import jsImg from '../images/jsimg.png';
+import ve1 from '../images/design/ve-1.png';
+import ve2 from '../images/design/ve-2.png';
+import ve3 from '../images/design/ve-3.png';
+import ve4 from '../images/design/ve-4.png';
+import ve5 from '../images/design/ve-5.png';
+import ve6 from '../images/design/ve-6.png';
+import ve7 from '../images/design/ve-7.png';
+
+function DesignPortfolio() {
+	return (
+		<Container className='designPortfolioContainer'>
+			{/* Visually Explained Project */}
+			<Col className='box'>
+				<Row className='projectHeader' style={{ borderColor: 'cyan' }}>
+					<h2>Visually Explained</h2>
+				</Row>
+				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
+					<Carousel className='designCarousel' interval={5000}>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Visually Explained slide 1' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Visually Explained slide 2' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Visually Explained slide 3' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Visually Explained slide 4' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+					</Carousel>
+				</Row>
+			</Col>
+
+			{/* Loop Project */}
+			<Col className='box'>
+				<Row className='projectHeader' style={{ borderColor: 'cyan' }}>
+					<h2>Loop</h2>
+				</Row>
+				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
+					<Carousel className='designCarousel' interval={5000}>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Loop slide 1' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Loop slide 2' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Loop slide 3' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Loop slide 4' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+					</Carousel>
+				</Row>
+			</Col>
+
+			{/* Flower Dictionary Project */}
+			<Col className='box'>
+				<Row className='projectHeader' style={{ borderColor: 'cyan' }}>
+					<h2>Flower Dictionary</h2>
+				</Row>
+				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
+					<Carousel className='designCarousel' interval={5000}>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 1' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 2' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 3' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='Flower Dictionary slide 4' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+					</Carousel>
+				</Row>
+			</Col>
+
+			{/* FinTools Project */}
+			<Col className='box'>
+				<Row className='projectHeader' style={{ borderColor: 'cyan' }}>
+					<h2>FinTools</h2>
+				</Row>
+				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
+					<Carousel className='designCarousel' interval={5000}>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='FinTools slide 1' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='FinTools slide 2' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+						<Carousel.Item>
+							<Row className='carouselRow'>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='FinTools slide 3' />
+								</Col>
+								<Col>
+									<img className='carouselImage' src={jsImg} alt='FinTools slide 4' />
+								</Col>
+							</Row>
+						</Carousel.Item>
+					</Carousel>
+				</Row>
+			</Col>
+		</Container>
+	);
+}
+export default DesignPortfolio;

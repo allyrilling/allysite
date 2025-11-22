@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 import PageNotFound from './components/PageNotFound';
 import ProjectMaxi from './components/ProjectMaxi';
+import DesignPortfolio from './components/DesignPortfolio';
 import icon from './images/penguinicon.svg';
 import favicon from './images/mylogo.svg';
 import ovlogo from './images/ovLogo.svg';
@@ -53,6 +54,7 @@ function App() {
 						<Route path='/home' exact component={() => <Home />} />
 						<Route path='/resume' exact component={() => <Resume />} />
 						<Route path='/projects' exact component={() => <Projects />} />
+						<Route path='/designportfolio' exact component={() => <DesignPortfolio />} />
 						<Route path='/privacypolicy' exact component={() => <PrivacyPolicy />} />
 						<Route
 							path='/projects/penguinworkouts'
@@ -365,8 +367,7 @@ function App() {
 															View full screen prototype{' '}
 															<a
 																style={{ color: '#F7DF1E' }}
-																href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'
-															>
+																href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'>
 																here
 															</a>
 															.
@@ -377,8 +378,7 @@ function App() {
 															width='800'
 															height='450'
 															src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'
-															allowfullscreen
-														></iframe>
+															allowfullscreen></iframe>
 													</Col>
 												</Row>
 												<p></p>
@@ -428,8 +428,7 @@ function App() {
 														View full screen prototype{' '}
 														<a
 															style={{ color: '#53C1DE' }}
-															href='https://www.figma.com/proto/rZWgf3fqn83YPhj2QrItiP/CS571-ReactBeta?embed_host=share&kind=&node-id=20%3A421&page-id=0%3A1&scaling=scale-down&starting-point-node-id=20%3A421'
-														>
+															href='https://www.figma.com/proto/rZWgf3fqn83YPhj2QrItiP/CS571-ReactBeta?embed_host=share&kind=&node-id=20%3A421&page-id=0%3A1&scaling=scale-down&starting-point-node-id=20%3A421'>
 															here
 														</a>
 														.
@@ -440,8 +439,7 @@ function App() {
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrZWgf3fqn83YPhj2QrItiP%2FCS571-ReactBeta%3Fpage-id%3D0%253A1%26node-id%3D20%253A421%26scaling%3Dscale-down%26starting-point-node-id%3D20%253A421'
-														allowfullscreen
-													></iframe>
+														allowfullscreen></iframe>
 												</Col>
 											</Row>
 											<p></p>
@@ -489,8 +487,7 @@ function App() {
 														View full screen prototype{' '}
 														<a
 															style={{ color: '#61DAFB' }}
-															href='https://www.figma.com/proto/WQ5DrKYANTxJIJr6Et2UrU/CS571-ReactNativeBeta?kind=&node-id=23%3A368&page-id=0%3A1&scaling=scale-down&starting-point-node-id=23%3A368&viewport=480%2C242%2C0.18'
-														>
+															href='https://www.figma.com/proto/WQ5DrKYANTxJIJr6Et2UrU/CS571-ReactNativeBeta?kind=&node-id=23%3A368&page-id=0%3A1&scaling=scale-down&starting-point-node-id=23%3A368&viewport=480%2C242%2C0.18'>
 															here
 														</a>
 														.
@@ -501,8 +498,7 @@ function App() {
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWQ5DrKYANTxJIJr6Et2UrU%2FCS571-ReactNativeBeta%3Fpage-id%3D0%253A1%26node-id%3D23%253A368%26viewport%3D480%252C242%252C0.18%26scaling%3Dscale-down%26starting-point-node-id%3D23%253A368'
-														allowfullscreen
-													></iframe>
+														allowfullscreen></iframe>
 													<iframe width='800' height='450' src={rnFigmaDemo}></iframe>
 												</Col>
 											</Row>
@@ -583,8 +579,7 @@ function App() {
 														View full screen prototype{' '}
 														<a
 															style={{ color: '#7EFFE0' }}
-															href='https://www.figma.com/proto/wzqDP1h3h0lLoNTOdIB8vl/CS570-CulturalProbe?kind=&node-id=28%3A2&page-id=0%3A1&starting-point-node-id=28%3A2'
-														>
+															href='https://www.figma.com/proto/wzqDP1h3h0lLoNTOdIB8vl/CS570-CulturalProbe?kind=&node-id=28%3A2&page-id=0%3A1&starting-point-node-id=28%3A2'>
 															here
 														</a>
 														.
@@ -595,8 +590,7 @@ function App() {
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwzqDP1h3h0lLoNTOdIB8vl%2FCS570-CulturalProbe%3Fpage-id%3D0%253A1%26node-id%3D28%253A2%26starting-point-node-id%3D28%253A2'
-														allowfullscreen
-													></iframe>
+														allowfullscreen></iframe>
 												</Col>
 											</Row>
 											<p></p>
@@ -608,8 +602,7 @@ function App() {
 														View full screen prototype{' '}
 														<a
 															style={{ color: '#7EFFE0' }}
-															href='https://www.figma.com/proto/U5RQwonAfPai8a1MVHrq7o/Interim-Presentation?kind=&node-id=86%3A1728&page-id=0%3A1&starting-point-node-id=86%3A1728'
-														>
+															href='https://www.figma.com/proto/U5RQwonAfPai8a1MVHrq7o/Interim-Presentation?kind=&node-id=86%3A1728&page-id=0%3A1&starting-point-node-id=86%3A1728'>
 															here
 														</a>
 														.
@@ -620,8 +613,7 @@ function App() {
 														width='800'
 														height='450'
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU5RQwonAfPai8a1MVHrq7o%2FInterim-Presentation%3Fpage-id%3D0%253A1%26node-id%3D86%253A1728%26starting-point-node-id%3D86%253A1728'
-														allowfullscreen
-													></iframe>
+														allowfullscreen></iframe>
 												</Col>
 											</Row>
 										</Container>
