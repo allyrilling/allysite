@@ -47,29 +47,67 @@
 	padding: 5px;
 }
 
-/* Carousel controls styling */
-.designCarousel .carousel-control-prev-icon,
-.designCarousel .carousel-control-next-icon {
-	background-color: rgba(29, 150, 250, 0.8);
-	border-radius: 50%;
-	padding: 20px;
+/* Carousel wrapper for controls */
+.designCarousel .carousel-inner {
+	margin-bottom: 20px;
 }
 
-.designCarousel .carousel-control-prev-icon:hover,
-.designCarousel .carousel-control-next-icon:hover {
-	background-color: rgba(29, 150, 250, 1);
+/* Carousel controls container */
+.carousel-controls-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 15px;
+}
+
+/* Carousel controls styling */
+.carousel-controls-container .carousel-control-prev,
+.carousel-controls-container .carousel-control-next {
+	position: static;
+	width: auto;
+	opacity: 1;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.carousel-controls-container .carousel-control-prev-icon,
+.carousel-controls-container .carousel-control-next-icon {
+	background-color: cyan;
+	border-radius: 50%;
+	padding: 15px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+.carousel-controls-container .carousel-control-prev-icon:hover,
+.carousel-controls-container .carousel-control-next-icon:hover {
+	background-color: rgba(0, 255, 255, 0.8);
 }
 
 /* Carousel indicators */
-.designCarousel .carousel-indicators button {
-	background-color: #1d96fa;
+.carousel-controls-container .carousel-indicators {
+	position: static;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.carousel-controls-container .carousel-indicators button {
+	background-color: cyan;
 	border-radius: 50%;
 	width: 12px;
 	height: 12px;
-	margin: 0 5px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
 }
 
-.designCarousel .carousel-indicators button.active {
+.carousel-controls-container .carousel-indicators button.active {
 	background-color: #ffffff;
 }
 
