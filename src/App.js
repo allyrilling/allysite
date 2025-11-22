@@ -44,6 +44,9 @@ import fdicon from './images/flowerdictlogo.svg';
 import loopicon from './images/loopicon.svg';
 import loopdemo from './files/Loopdemo.mov';
 
+// Toggle this to show/hide the Resume tab and route
+const SHOW_RESUME = false;
+
 function App() {
 	return (
 		<div className='App' id='page-container'>
@@ -54,7 +57,7 @@ function App() {
 						<Route path='/' exact component={() => <Home />} />
 						<Route path='/website' exact component={() => <Home />} />
 						<Route path='/home' exact component={() => <Home />} />
-						<Route path='/resume' exact component={() => <Resume />} />
+						{SHOW_RESUME && <Route path='/resume' exact component={() => <Resume />} />}
 						<Route path='/projects' exact component={() => <Projects />} />
 						<Route path='/designportfolio' exact component={() => <DesignPortfolio />} />
 						<Route path='/privacypolicy' exact component={() => <PrivacyPolicy />} />
