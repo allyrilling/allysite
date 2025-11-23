@@ -24,12 +24,15 @@ export default function Home() {
 				<Col>
 					<h1>Hello. My name is Ally.</h1>
 					<p>
-						I am a motion graphics designer and project manager at Visually Explained Education. I specialize in visual storytelling, animation, and
-						interface-adjacent graphics, with experience translating complex concepts into clean, aesthetic visuals.
+						I am a <strong>motion graphics designer</strong> and <strong>project manager</strong> at Visually Explained Education. I specialize in{' '}
+						<strong>visual storytelling</strong>, with experience translating complex concepts into <strong>clean</strong>,{' '}
+						<strong>approachable</strong>, <strong>aesthetic</strong> visuals. I also work as a <strong>research assistant</strong> for Professor
+						Sebastien Plante, developing tools to process and analyze historical bond data.
 					</p>
 					<p>
-						I graduated from the University of Wisconsin - Madison with degrees in Computer Science and Finance. I'm passionate about design, data
-						visualization, and creating intuitive user experiences.
+						I graduated from the <strong>University of Wisconsin - Madison</strong> with degrees in <strong>Computer Science</strong> and{' '}
+						<strong>Finance</strong>. I'm passionate about <strong>design</strong>, <strong>data visualization</strong>, and creating{' '}
+						<strong>intuitive user experiences</strong>.
 					</p>
 					<Row className='linkContainer'>
 						<Col className='iconCol'>
