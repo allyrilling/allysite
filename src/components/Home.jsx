@@ -5,6 +5,7 @@ import me from '../images/me.png';
 import mail from '../images/mail.svg';
 import github from '../images/github.svg';
 import linkedin from '../images/linkedin.svg';
+import youtube from '../images/yticon.svg';
 
 const Mailto = ({ email, subject = '', body = '', children }) => {
 	let params = subject || body ? '?' : '';
@@ -24,8 +25,11 @@ export default function Home() {
 				<Col>
 					<h1>Hello. My name is Ally.</h1>
 					<p>
-						I am a <strong>motion graphics designer</strong> and <strong>project manager</strong> at Visually Explained Education. I specialize in{' '}
-						<strong>visual storytelling</strong>, with experience translating complex concepts into <strong>clean</strong>,{' '}
+						I am a <strong>motion graphics designer</strong> and <strong>project manager</strong> at{' '}
+						<a href='https://www.youtube.com/@VisuallyExplainedEducation/featured' target='_blank' rel='noopener noreferrer'>
+							Visually Explained Education
+						</a>
+						. I specialize in <strong>visual storytelling</strong>, with experience translating complex concepts into <strong>clean</strong>,{' '}
 						<strong>approachable</strong>, <strong>aesthetic</strong> visuals. I also work as a <strong>research assistant</strong> for Professor
 						Sebastien Plante, developing tools to process and analyze historical bond data.
 					</p>
@@ -43,6 +47,11 @@ export default function Home() {
 						<Col className='iconCol'>
 							<a href='https://www.linkedin.com/in/allyrilling/'>
 								<img className='imgStyle' src={linkedin}></img>
+							</a>
+						</Col>
+						<Col className='iconCol'>
+							<a href='https://www.youtube.com/@VisuallyExplainedEducation/featured' target='_blank' rel='noopener noreferrer'>
+								<img className='imgStyle' src={youtube}></img>
 							</a>
 						</Col>
 						<Col className='iconCol'>

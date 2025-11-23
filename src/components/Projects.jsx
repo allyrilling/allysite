@@ -21,7 +21,7 @@ function Projects() {
 		<Container>
 			<Col>
 				<Row className='headerContainer'>
-					<h1>Current Projects</h1>
+					<h1>Current Side Projects</h1>
 				</Row>
 				<Row className='rowContainer'>
 					<Col className='projectMini'>
@@ -37,7 +37,7 @@ function Projects() {
 				</Row>
 
 				<Row className='headerContainer'>
-					<h1>Retired Projects</h1>
+					<h1>Retired Side Projects</h1>
 				</Row>
 				<Row className='rowContainer'>
 					<Col className='projectMini'>
