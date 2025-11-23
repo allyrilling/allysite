@@ -65,9 +65,27 @@ function DesignPortfolio() {
 		<Container className='designPortfolioContainer'>
 			{/* Visually Explained Project */}
 			<Col className='box'>
-				<Row className='projectHeader' style={{ borderColor: 'cyan' }}>
-					<h2>Visually Explained</h2>
-				</Row>
+				<div className='projectHeader' style={{ borderColor: 'cyan', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+					<h2 style={{ margin: 0 }}>Visually Explained</h2>
+					<a
+						href='https://www.youtube.com/@VisuallyExplainedEducation/featured'
+						target='_blank'
+						rel='noopener noreferrer'
+						style={{
+							backgroundColor: 'cyan',
+							color: '#000',
+							textDecoration: 'none',
+							padding: '8px 16px',
+							borderRadius: '5px',
+							fontWeight: '500',
+							display: 'inline-block',
+							whiteSpace: 'nowrap',
+							flexShrink: 0,
+							width: 'auto',
+						}}>
+						View project
+					</a>
+				</div>
 				<Row className='projectBody' style={{ borderColor: 'cyan' }}>
 					<Carousel className='designCarousel' interval={5000} controls={false} indicators={false} activeIndex={veIndex} onSelect={setVeIndex}>
 						{[0, 1, 2, 3].map((slideIndex) => (
@@ -106,9 +124,25 @@ function DesignPortfolio() {
 
 			{/* Loop Project */}
 			<Col className='box loop-section'>
-				<Row className='projectHeader' style={{ borderColor: '#DA63AC' }}>
-					<h2>Loop</h2>
-				</Row>
+				<div className='projectHeader' style={{ borderColor: '#DA63AC', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+					<h2 style={{ margin: 0 }}>Loop</h2>
+					<a
+						href='/projects/loop'
+						style={{
+							backgroundColor: '#DA63AC',
+							color: '#fff',
+							textDecoration: 'none',
+							padding: '8px 16px',
+							borderRadius: '5px',
+							fontWeight: '500',
+							display: 'inline-block',
+							whiteSpace: 'nowrap',
+							flexShrink: 0,
+							width: 'auto',
+						}}>
+						View project
+					</a>
+				</div>
 				<Row className='projectBody' style={{ borderColor: '#DA63AC' }}>
 					<Carousel className='designCarousel' interval={5000} controls={false} indicators={false} activeIndex={loopIndex} onSelect={setLoopIndex}>
 						{[0, 1, 2, 3].map((slideIndex) => (
@@ -142,9 +176,25 @@ function DesignPortfolio() {
 
 			{/* Flower Dictionary Project */}
 			<Col className='box flower-dictionary-section'>
-				<Row className='projectHeader' style={{ borderColor: '#F8F9FA' }}>
-					<h2>Flower Dictionary</h2>
-				</Row>
+				<div className='projectHeader' style={{ borderColor: '#F8F9FA', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+					<h2 style={{ margin: 0 }}>Flower Dictionary</h2>
+					<a
+						href='/projects/flowerdictionary'
+						style={{
+							backgroundColor: '#6c757d',
+							color: '#fff',
+							textDecoration: 'none',
+							padding: '8px 16px',
+							borderRadius: '5px',
+							fontWeight: '500',
+							display: 'inline-block',
+							whiteSpace: 'nowrap',
+							flexShrink: 0,
+							width: 'auto',
+						}}>
+						View project
+					</a>
+				</div>
 				<Row className='projectBody' style={{ borderColor: '#F8F9FA' }}>
 					<Carousel
 						className='designCarousel'
@@ -192,9 +242,25 @@ function DesignPortfolio() {
 
 			{/* FinTools Project */}
 			<Col className='box fintools-section'>
-				<Row className='projectHeader' style={{ borderColor: '#ff0000' }}>
-					<h2>FinTools</h2>
-				</Row>
+				<div className='projectHeader' style={{ borderColor: '#ff0000', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+					<h2 style={{ margin: 0 }}>FinTools</h2>
+					<a
+						href='/projects/fintools'
+						style={{
+							backgroundColor: '#ff0000',
+							color: '#fff',
+							textDecoration: 'none',
+							padding: '8px 16px',
+							borderRadius: '5px',
+							fontWeight: '500',
+							display: 'inline-block',
+							whiteSpace: 'nowrap',
+							flexShrink: 0,
+							width: 'auto',
+						}}>
+						View project
+					</a>
+				</div>
 				<Row className='projectBody' style={{ borderColor: '#ff0000' }}>
 					<Carousel className='designCarousel' interval={5000} controls={false} indicators={false} activeIndex={finIndex} onSelect={setFinIndex}>
 						{[0, 1].map((slideIndex) => (
