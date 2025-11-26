@@ -5,7 +5,7 @@ export const visuallyExplainedData = [
 		id: 1,
 		image: 've1',
 		title: 'Python Decorators - Visually Explained',
-		videoUrl: 'https://www.youtube.com/watch?v=YOUR_VIDEO_ID',
+		videoUrl: 'https://www.youtube.com/watch?v=3tyaO-OE0K0',
 		views: '',
 	},
 	{
@@ -19,7 +19,7 @@ export const visuallyExplainedData = [
 		id: 3,
 		image: 've3',
 		title: 'Python Decorators - Visually Explained',
-		videoUrl: 'https://www.youtube.com/watch?v=YOUR_VIDEO_ID',
+		videoUrl: 'https://www.youtube.com/watch?v=3tyaO-OE0K0',
 		views: '',
 	},
 	{
