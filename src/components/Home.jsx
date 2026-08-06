@@ -5,7 +5,6 @@ import me from '../images/me.png';
 import mail from '../images/mail.svg';
 import github from '../images/github.svg';
 import linkedin from '../images/linkedin.svg';
-import youtube from '../images/yticon.svg';
 
 const Mailto = ({ email, subject = '', body = '', children }) => {
 	let params = subject || body ? '?' : '';
@@ -25,33 +24,24 @@ export default function Home() {
 				<Col>
 					<h1>Hello. My name is Ally.</h1>
 					<p>
-						I am a <strong>motion graphics designer</strong> and <strong>project manager</strong> at{' '}
-						<a href='https://www.youtube.com/@VisuallyExplainedEducation/featured' target='_blank' rel='noopener noreferrer'>
-							Visually Explained Education
-						</a>
-						. I specialize in <strong>visual storytelling</strong>, with experience translating complex concepts into <strong>clean</strong>,{' '}
-						<strong>approachable</strong>, <strong>aesthetic</strong> visuals. I also work as a <strong>research assistant</strong> for Professor
-						Sebastien Plante, developing tools to process and analyze historical bond data.
+						I'm a <strong>process automation specialist</strong> who architects solutions to replace manual, repetitive workflows. I
+						design and build automation pipelines that combine <strong>AI models</strong> with custom tooling to cut manual work down
+						to a fraction of its original effort. I'm especially interested in the intersection of <strong>thoughtful design</strong>{' '}
+						and <strong>process automation</strong>.
 					</p>
 					<p>
-						I graduated from the <strong>University of Wisconsin - Madison</strong> with degrees in <strong>Computer Science</strong> and{' '}
-						<strong>Finance</strong>. I'm passionate about <strong>design</strong>, <strong>data visualization</strong>, and creating{' '}
-						<strong>intuitive user experiences</strong>.
+						I graduated from the <strong>University of Wisconsin - Madison</strong> with degrees in <strong>Computer Science</strong>{' '}
+						and <strong>Finance</strong>.
 					</p>
 					<Row className='linkContainer'>
-						<Col className='iconCol'>
-							<a href='https://github.com/allyrilling'>
-								<img className='imgStyle' src={github}></img>
-							</a>
-						</Col>
 						<Col className='iconCol'>
 							<a href='https://www.linkedin.com/in/allyrilling/'>
 								<img className='imgStyle' src={linkedin}></img>
 							</a>
 						</Col>
 						<Col className='iconCol'>
-							<a href='https://www.youtube.com/@VisuallyExplainedEducation/featured' target='_blank' rel='noopener noreferrer'>
-								<img className='imgStyle' src={youtube}></img>
+							<a href='https://github.com/allyrilling'>
+								<img className='imgStyle' src={github}></img>
 							</a>
 						</Col>
 						<Col className='iconCol'>
